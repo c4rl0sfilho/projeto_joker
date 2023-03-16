@@ -1,0 +1,42 @@
+body{
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    margin-left: 100px;
+    
+}
+header{
+    display: flex;
+    
+    gap: 16px;
+    color: whitesmoke;
+    margin-left: 50px;
+}
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    height: 400px;
+}
+p{
+    font-size: 25px;
+    width: 500px;
+    color: whitesmoke;
+}
+.info_text{
+    text-align: center;
+}
+.logo_container{
+    display:flex ;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-end;
+}
+.vd1{
+    padding-right:30px ;
+}
+
+.vd2{
+    padding-right: 30px;
+}
