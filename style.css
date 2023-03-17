@@ -8,11 +8,22 @@ body{
 }
 header{
     display: flex;
-    
     gap: 16px;
     color: whitesmoke;
     margin-left: 50px;
 }
+.menu{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 35vw;
+    font-size: small;
+    color: ivory;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 78px;
+    
+}
+
 main{
     display: grid;
     grid-template-columns: 2fr 1fr;
